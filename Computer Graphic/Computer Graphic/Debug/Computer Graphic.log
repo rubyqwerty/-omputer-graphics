@@ -1,0 +1,44 @@
+﻿  2DFigure.cpp
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,134): warning C4244: аргумент: преобразование "const double" в "const unsigned int", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,172): warning C4244: аргумент: преобразование "const double" в "const unsigned int", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,33): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,33): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,75): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,75): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,121): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,121): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,159): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,159): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,134): warning C4244: аргумент: преобразование "const double" в "const unsigned int", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,172): warning C4244: аргумент: преобразование "const double" в "const unsigned int", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,33): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,33): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,75): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,75): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,121): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,121): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,159): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,159): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+  RoboRabbit.cpp
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,134): warning C4244: аргумент: преобразование "const double" в "const unsigned int", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,172): warning C4244: аргумент: преобразование "const double" в "const unsigned int", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,33): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,33): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,75): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,75): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,121): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,121): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,159): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(157,159): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,134): warning C4244: аргумент: преобразование "const double" в "const unsigned int", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,172): warning C4244: аргумент: преобразование "const double" в "const unsigned int", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,33): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,33): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,75): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,75): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,121): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,121): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,159): warning C4838: Преобразование из "double" в "LONG" требует сужающего преобразования.
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\RoboRabbit.h(171,159): warning C4244: инициализация: преобразование "double" в "LONG", возможна потеря данных
+  Создание кода...
+  Computer Graphic.vcxproj -> C:\Users\gruni\source\repos\Computer Graphic\Debug\2DFigure.exe
