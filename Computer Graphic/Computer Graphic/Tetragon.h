@@ -36,10 +36,9 @@ public:
 	}
 	
 	Tetragon(quad a, quad b, quad c, quad d) {
-		first = c;
+		first = a;
 		second = b;
-
-		third = a;
+		third = c;
 		_quad = d;
 		equation_plane = Get_equation_plane();
 	}
@@ -443,39 +442,173 @@ public:
 
 								//
 
-						Tetragon(coordinate[34],
-							coordinate[122],
-							coordinate[31],
-							coordinate[124]
-						),
 
-								Tetragon(coordinate[34 + 62],
-									coordinate[122 + 1],
-									coordinate[31 + 62],
-									coordinate[124 + 1]
-								),
-
-							
 							Tetragon(coordinate[34],
-								coordinate[122],
-								coordinate[122+1],
-								coordinate[34 + 62]
+								coordinate[60],
+								coordinate[31],
+								coordinate[124]
+							),
+
+							Tetragon(coordinate[34+62],
+								coordinate[60 + 62],
+								coordinate[31 + 62],
+								coordinate[125]
 							),
 
 							Tetragon(coordinate[31],
-								coordinate[124],
-								coordinate[125],
+								coordinate[60],
+								coordinate[60+62],
+								coordinate[31+62]
+							),
+
+							
+							Tetragon(coordinate[31],
+								coordinate[60],
+								coordinate[60 + 62],
 								coordinate[31 + 62]
 							),
 
 							Tetragon(coordinate[34],
 								coordinate[124],
-								coordinate[124 + 1],
+								coordinate[125],
+								coordinate[34+62]
+							),
+
+							Tetragon(coordinate[34],
+								coordinate[60],
+								coordinate[60 + 62],
 								coordinate[34 + 62]
 							),
+								
+						
+
+								//
+
+
+								Tetragon(coordinate[30],
+									coordinate[124],
+									coordinate[37],
+									coordinate[36]
+								),
+
+							Tetragon(coordinate[30+62],
+								coordinate[125],
+								coordinate[37+62],
+								coordinate[36+62]
+							),
+
+								Tetragon(coordinate[30],
+									coordinate[36],
+									coordinate[36 + 62],
+									coordinate[30 + 62]
+								),
+
+
+								Tetragon(coordinate[124],
+									coordinate[37],
+									coordinate[37 + 62],
+									coordinate[125]
+								),
+
+								Tetragon(coordinate[30],
+									coordinate[124],
+									coordinate[125],
+									coordinate[30 + 62]
+								),
+
+								Tetragon(coordinate[36],
+									coordinate[37],
+									coordinate[37 + 62],
+									coordinate[36 + 62]
+								),
+
+
+
+								//
+
+
+								Tetragon(coordinate[32],
+									coordinate[126],
+									coordinate[35],
+									coordinate[61]
+								),
+
+								Tetragon(coordinate[32 + 62],
+									coordinate[127],
+									coordinate[35 + 62],
+									coordinate[61 + 62]
+								),
+
+								Tetragon(coordinate[32],
+									coordinate[126],
+									coordinate[127],
+									coordinate[32 + 62]
+								),
+
+
+								Tetragon(coordinate[61],
+									coordinate[35],
+									coordinate[35 + 62],
+									coordinate[61+62]
+								),
+
+								Tetragon(coordinate[32],
+									coordinate[61],
+									coordinate[61+62],
+									coordinate[32 + 62]
+								),
+
+								Tetragon(coordinate[35],
+									coordinate[126],
+									coordinate[127],
+									coordinate[35 + 62]
+								),
+
+
+
+								//
+
+
+								Tetragon(coordinate[126],
+									coordinate[38],
+									coordinate[39],
+									coordinate[33]
+								),
+
+								Tetragon(coordinate[127],
+									coordinate[38+62],
+									coordinate[39 + 62],
+									coordinate[33 + 62]
+								),
+
+								Tetragon(coordinate[126],
+									coordinate[33],
+									coordinate[33 + 62],
+									coordinate[127]
+								),
+
+
+								Tetragon(coordinate[38],
+									coordinate[39],
+									coordinate[39 + 62],
+									coordinate[38+62]
+								),
+
+								Tetragon(coordinate[33],
+									coordinate[39],
+									coordinate[39+62],
+									coordinate[33 + 62]
+								),
+
+								Tetragon(coordinate[126],
+									coordinate[38],
+									coordinate[38+62],
+									coordinate[127]
+								),
+
 							
 							//
-
+							/*
 								Tetragon(coordinate[36],
 									coordinate[37],
 									coordinate[124],
@@ -512,6 +645,7 @@ public:
 
 
 								//
+								/*
 
 							Tetragon(coordinate[126],
 								coordinate[32],
@@ -543,7 +677,7 @@ public:
 								),
 							//
 							// 
-							// 
+							
 								Tetragon(coordinate[38],
 									coordinate[39],
 									coordinate[33],
@@ -594,7 +728,7 @@ public:
 								),
 								//
 
-							/*
+							
 								Tetragon(coordinate[30],
 									coordinate[36],
 									coordinate[37],

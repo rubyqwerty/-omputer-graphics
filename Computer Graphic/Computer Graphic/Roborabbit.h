@@ -19,13 +19,13 @@ struct Point3D {
 struct quad {
 	double first = 1;
 	double second = 1;
-	double third = 100;
+	double third = -100;
 	double fourth = 1;
 
 };
 class RoboRabbit {
 public:
-	double N = 0.000000;
+	double N = 0.00;
 	double CenterX = 500;
 	double CenterY = 400;
 	virtual void Turn(double a) = 0;
@@ -54,7 +54,7 @@ public:
 					});
 			}
 		}
-		
+		int j;
 	}
 	// Создание новый координат по матрице-изменения
 	void DoNewImage(vector<vector<double>> matrix) {
@@ -62,12 +62,12 @@ public:
 		for (auto i : coordinate) {
 			newcoordinate.push_back(Transformation(i, matrix));
 			int n = newcoordinate.size() - 1;
-		    newcoordinate[n].first = newcoordinate[n].first / (newcoordinate[n].third * N + 1)+500;
-			newcoordinate[n].second = newcoordinate[n].second / (newcoordinate[n].third * N + 1)+500;
-			newcoordinate[n].third = newcoordinate[n].third / (newcoordinate[n].third * N + 1)+500;
+		    newcoordinate[n].first = newcoordinate[n].first / (newcoordinate[n].third * N + 1);
+			newcoordinate[n].second = newcoordinate[n].second / (newcoordinate[n].third * N + 1);
+			newcoordinate[n].third = newcoordinate[n].third / (newcoordinate[n].third * N + 1);
 		}
 		CurrentCoordinate = newcoordinate;
-		//Draw(newcoordinate);
+	    Draw(newcoordinate);
 	}
 	// Перемещение (анимация)
 	void Moving() {
