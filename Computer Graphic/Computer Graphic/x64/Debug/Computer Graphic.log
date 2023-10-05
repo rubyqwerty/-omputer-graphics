@@ -23,86 +23,61 @@ C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\Roborabbit.h(53,35
           ]
 C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\Roborabbit.h(57,7): warning C4101: j: неиспользованная локальная переменная
 C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\Roborabbit.h(64,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(73,59): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(47,59): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(73,44): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(47,44): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(74,61): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(48,61): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(74,45): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(48,45): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(75,59): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(49,59): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(75,44): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(49,44): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(76,59): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(50,59): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(76,44): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(50,44): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(98,15): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(98,19): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(117,59): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(70,15): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(70,19): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(71,37): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(71,41): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(72,17): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(72,21): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(84,48): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(117,44): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(84,45): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
           with
           [
               T=float
           ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(118,61): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(118,45): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(119,59): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(119,44): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(120,59): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-C:\Users\gruni\source\repos\Computer Graphic\Computer Graphic\ControlRoboRabbit.h(120,44): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
+     Создается библиотека C:\Users\gruni\source\repos\Computer Graphic\x64\Debug\CompGraphics.lib и объект C:\Users\gruni\source\repos\Computer Graphic\x64\Debug\CompGraphics.exp
   Computer Graphic.vcxproj -> C:\Users\gruni\source\repos\Computer Graphic\x64\Debug\CompGraphics.exe

@@ -355,7 +355,7 @@ public:
 	// Вращение картинки (анимация)
 	void Poisoning() {
 		int ratio = 1, ratio2 = 1;
-		for (double b = 0, a = 0, c = 0; ; b += 0.0001, a += 0.0001, c += ratio2) {
+		for (double b = 0, a = 0, c = 0; ; b += 0.000008, a += 0.000008, c += ratio2) {
 			if (!PoisoningWork) return;
 			Turn2(a, b, c);
 			

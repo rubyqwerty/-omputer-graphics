@@ -606,6 +606,11 @@ public:
 									coordinate[127]
 								),
 
+										Tetragon(coordinate[30],
+											coordinate[31],
+											coordinate[31 + 62],
+											coordinate[30+62]
+										),
 							
 							//
 							/*

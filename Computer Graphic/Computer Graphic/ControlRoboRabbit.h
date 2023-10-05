@@ -4,6 +4,7 @@
 #include "RoboRabbit3d.h"
 #include "Tetragon.h"
 #include <algorithm>
+#include "Container.h"
 
 class ControlRoboRabbit {
 public:
@@ -13,26 +14,10 @@ public:
 		Control();
 	}
 private:
-	vector<vector<double>> MultiplicationMatrix(vector<vector<double>>& a, vector<vector<double>>& b) {
-		vector<vector<double>> rslt(a.size(), { 0,0,0,0 });
-		for (int i = 0; i < a.size(); i++) {
-			for (int j = 0; j < b.size(); j++) {
-				rslt[i][j] = 0;
-				for (int k = 0; k < b.size(); k++) {
-					rslt[i][j] += a[i][k] * b[k][j];
-				}
-			}
-		}
-		return rslt;
-	}
-	quad Transformation(quad& m, vector<vector<double>> a) {
-		return { m.first * a[0][0] + m.second * a[0][1] + m.third * a[0][2] + m.fourth * a[0][3],
-				m.first * a[1][0] + m.second * a[1][1] + m.third * a[1][2] + m.fourth * a[1][3],
-				m.first * a[2][0] + m.second * a[2][1] + m.third * a[2][2] + m.fourth * a[1][3],
-				m.first * a[3][0] + m.second * a[3][1] + m.third * a[3][2] + m.fourth * a[3][3] };
-	}
 	void StartDrawing() {
 		RenderWindow window(VideoMode(1000, 800), L"Titul", Style::Default);
+		vector<vector<vector<double>>> Animation;
+		ContainerZBuffer g;
 		while (window.isOpen())
 		{
 			if (!roborabbit->Work) break;
@@ -41,29 +26,18 @@ private:
 			{
 				if (event.type == Event::Closed) window.close();
 			}
-		/*
-			vector<pair<Vertex, Vertex>> G(roborabbit->LINES);
-			if (!(G.size() == 237)) continue;
-			window.clear(Color::Blue);
-			VertexArray g(Lines);
-			int k = 0;
-			for (int i = 0; i < G.size(); ++i) {
-				g.append(G[i].first);
-				g.append(G[i].second);
-			}
-			window.draw(g);
-			Sleep(10);
-			*/
 			
+			//auto f = g.Get();
 			if (roborabbit->CurrentCoordinate.size() != 128) continue;
-			
 			auto COOR = roborabbit->CurrentCoordinate;
 			for (auto& i : COOR) {
 				i.first += 500;
 				i.second = 400 - i.second;
+				i.third -= 300;
 			}
 			vector<pair<double, Tetragon>> tr;
 			auto hh = Tetragon::GetTetragons(COOR);
+			vector<vector<double>> Zbuffer(800, vector<double>(1000, -5000));
 			for (auto gg : hh)
 				tr.push_back({ 0, gg });
 			for (auto& A : tr) {
@@ -91,45 +65,40 @@ private:
 							cor[y][x] = 1;
 					}
 				}
-				double Zmin = 0;
-				int count = 0;
-				for (double _y = 0; _y < 800; ++_y) {
-					for (double _x = 0; _x < 1000; ++_x) {
+				for (double _y = 0; _y < 800; ++_y)
+					for (double _x = 0; _x < 1000; ++_x)
 						if (cor[_y][_x] == 1) {
-							//if (i.GetZ(_x, _y) < Zmin)
-								Zmin += i.GetZ(_x, _y);
-								count++;
+							if (i.GetZ(_x, _y) > Zbuffer[_y][_x])
+								Zbuffer[_y][_x] = i.GetZ(_x, _y);
 						}
+			}
+			Animation.push_back(Zbuffer);
+			if (Animation.size() == 250) {
+				g.Save(Animation);
+				while (1){
+					for (auto& buff : Animation) {
+						sf::VertexArray pointmap(sf::Points, 1000 * 800);
+						int k = 0;
+						for (int x = 0; x < 1000; ++x) {
+							for (int y = 0; y < 800; ++y) {
+								pointmap[k].position = sf::Vector2f(x, y);
+								if (buff[y][x] > -1000) {
+									sf::Uint8 l1 = max((sf::Uint8)(buff[y][x] * 0.3 + 200), (sf::Uint8)100);
+									pointmap[k].color = Color{ l1, l1, (sf::Uint8)0 };
+								}
+								else
+									pointmap[k].color = Color::Blue;
+								k++;
+							}
+						}
+						window.draw(pointmap);
+						window.display();
+						Sleep(10);
 					}
-				}
-				A.first = Zmin / count;
-			}
-			sort(tr.begin(), tr.end(), [](auto& left, auto& right) {
-				return left.first < right.first;
-				});
 
-			double ratio = 0;
-			window.clear(Color::Green);
-			for (auto& A : tr) {
-				sf::ConvexShape convex;
-				auto i = A.second;
-				convex.setPointCount(4);
-				convex.setPoint(0, sf::Vector2f(i.first.first, i.first.second));
-				convex.setPoint(1, sf::Vector2f(i.second.first, i.second.second));
-				convex.setPoint(2, sf::Vector2f(i.third.first, i.third.second));
-				convex.setPoint(3, sf::Vector2f(i._quad.first, i._quad.second));
-			//	convex.setOutlineThickness(1.3);
+				}
 				
-				//convex.setOutlineColor(Color::Red);
-				ratio = 200 + A.first * 0.2;
-				ratio = max((double)20, ratio);
-				ratio = min((double)255, ratio);
-				convex.setFillColor(Color{(sf::Uint8)ratio, (sf::Uint8)ratio, 0 });
-				
-				window.draw(convex); // “ут мы рисуем
 			}
-			
-			window.display();
 		}
 	}
 	
