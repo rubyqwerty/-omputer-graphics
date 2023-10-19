@@ -54,814 +54,151 @@ public:
 	static vector<Tetragon> GetTetragons(vector<quad> coordinate) {
 		return {
 			
-			Tetragon(coordinate[5],
-			coordinate[6],
-			coordinate[6 + 62],
-			coordinate[5 + 62]
+			Tetragon(coordinate[3 -1],
+			coordinate[2 -1],
+			coordinate[20 -1],
+			coordinate[21 -1]
 			),
-			Tetragon(coordinate[0 + 62],
-			coordinate[1 + 62],
-			coordinate[6 + 62],
-			coordinate[5 + 62]
+			Tetragon(coordinate[6-1],
+			coordinate[3-1],
+			coordinate[21-1],
+			coordinate[24-1]
 			),
-
-			Tetragon(coordinate[0],
-			coordinate[5],
-			coordinate[62 + 5],
-			coordinate[62]
+			Tetragon(coordinate[2-1],
+			coordinate[5-1],
+			coordinate[23-1],
+			coordinate[20-1]
 			),
-			Tetragon(coordinate[1],
-			coordinate[6],
-			coordinate[6 + 62],
-			coordinate[1 + 62]
+			Tetragon(coordinate[6-1],
+			coordinate[5-1],
+			coordinate[23-1],
+			coordinate[24-1]
 			),
-			Tetragon(coordinate[0],
-			coordinate[1],
-			coordinate[1 + 62],
-			coordinate[0 + 62]
+			Tetragon(coordinate[15-1],
+			coordinate[16-1],
+			coordinate[34-1],
+			coordinate[33-1]
 			),
-
-			Tetragon(coordinate[0],
-			coordinate[1],
-			coordinate[6],
-			coordinate[5]
+			Tetragon(coordinate[16-1],
+			coordinate[14-1],
+			coordinate[32-1],
+			coordinate[34-1]
 			),
-			
-			
-			Tetragon(coordinate[2],
-			coordinate[3],
-			coordinate[8],
-			coordinate[7]
+			Tetragon(coordinate[12-1],
+			coordinate[13-1],
+			coordinate[31-1],
+			coordinate[30-1]
 			),
-
-			Tetragon(coordinate[2+62],
-			coordinate[3 + 62],
-			coordinate[8 + 62],
-			coordinate[7 + 62]
+			Tetragon(coordinate[13-1],
+			coordinate[11-1],
+			coordinate[29-1],
+			coordinate[31-1]
 			),
-			
-			Tetragon(coordinate[2],
-			coordinate[7],
-			coordinate[7 + 62],
-			coordinate[2 + 62]
+			Tetragon(coordinate[10-1],
+			coordinate[7-1],
+			coordinate[25-1],
+			coordinate[28-1]
 			),
-
-			Tetragon(coordinate[3],
-			coordinate[8],
-			coordinate[8 + 62],
-			coordinate[3 + 62]
+			Tetragon(coordinate[9-1],
+			coordinate[10-1],
+			coordinate[28-1],
+			coordinate[27-1]
 			),
-
-			Tetragon(coordinate[2],
-			coordinate[3],
-			coordinate[3 + 62],
-			coordinate[2 + 62]
+			Tetragon(coordinate[8-1],
+			coordinate[7-1],
+			coordinate[25-1],
+			coordinate[26-1]
 			),
-
-			Tetragon(coordinate[7],
-			coordinate[8],
-			coordinate[8 + 62],
-			coordinate[7 + 62]
+			Tetragon(coordinate[18-1],
+			coordinate[10-1],
+			coordinate[28-1],
+			coordinate[36-1]
 			),
-
-			//
-
-			Tetragon(coordinate[4],
-			coordinate[9],
-			coordinate[20],
-			coordinate[15]
+			Tetragon(coordinate[17-1],
+			coordinate[18-1],
+			coordinate[36-1],
+			coordinate[35-1]
 			),
-
-			Tetragon(coordinate[4+62],
-			coordinate[9+62],
-			coordinate[20+62],
-			coordinate[15+62]
+			Tetragon(coordinate[20-1],
+			coordinate[21-1],
+			coordinate[6-1],
+			coordinate[5-1]
 			),
-
-			Tetragon(coordinate[9],
-			coordinate[20],
-			coordinate[20 + 62],
-			coordinate[9 + 62]
+			Tetragon(coordinate[9-1],
+			coordinate[8-1],
+			coordinate[7-1],
+			coordinate[10-1]
 			),
-
-			Tetragon(coordinate[4],
-			coordinate[15],
-			coordinate[15 + 62],
-			coordinate[4 + 62]
+			Tetragon(coordinate[10-1],
+			coordinate[18-1],
+			coordinate[17-1],
+			coordinate[17-1]
 			),
-
-			Tetragon(coordinate[4],
-			coordinate[9],
-			coordinate[9 + 62],
-			coordinate[4 + 62]
+			Tetragon(coordinate[15-1],
+			coordinate[16-1],
+			coordinate[14-1],
+			coordinate[14-1]
 			),
-
-			//
-
-			Tetragon(coordinate[14],
-			coordinate[21],
-			coordinate[29],
-			coordinate[26]
+			Tetragon(coordinate[12-1],
+			coordinate[13-1],
+			coordinate[11-1],
+			coordinate[11-1]
 			),
-
-			Tetragon(coordinate[14+62],
-			coordinate[21+62],
-			coordinate[29+62],
-			coordinate[26+62]
+			Tetragon(coordinate[2-1],
+			coordinate[3-1],
+			coordinate[24-1],
+			coordinate[23-1]
 			),
-
-			Tetragon(coordinate[14],
-			coordinate[26],
-			coordinate[26+62],
-			coordinate[14+62]
+			Tetragon(coordinate[27-1],
+			coordinate[26-1],
+			coordinate[25-1],
+			coordinate[28-1]
 			),
-
-			Tetragon(coordinate[21],
-			coordinate[29],
-			coordinate[29+62],
-			coordinate[21+62]
-			),
-
-			Tetragon(coordinate[14],
-			coordinate[21],
-			coordinate[21+62],
-			coordinate[14+62]
-			),
-
-			Tetragon(coordinate[26],
-			coordinate[29],
-			coordinate[29+62],
-			coordinate[26+62]
-			),
-
-			//
-
-
-			Tetragon(coordinate[27],
-			coordinate[28],
-			coordinate[43],
-			coordinate[40]
-			),
-
-				Tetragon(coordinate[27+62],
-					coordinate[28+62],
-					coordinate[43+62],
-					coordinate[40+62]
+				Tetragon(coordinate[28-1],
+					coordinate[36-1],
+					coordinate[35-1],
+					coordinate[35-1]
 				),
-
-				Tetragon(coordinate[27],
-					coordinate[40],
-					coordinate[40+62],
-					coordinate[27+62]
+				Tetragon(coordinate[33-1],
+					coordinate[34-1],
+					coordinate[32-1],
+					coordinate[32-1]
 				),
-
-				Tetragon(coordinate[28],
-					coordinate[43],
-					coordinate[43+62],
-					coordinate[28+62]
-				),
-
-				Tetragon(coordinate[27],
-					coordinate[28],
-					coordinate[28+62],
-					coordinate[27+62]
-				),
-
-				Tetragon(coordinate[40],
-					coordinate[43],
-					coordinate[43+62],
-					coordinate[40+62]
-				),
-
-				//
-
-				//
-
-
-				Tetragon(coordinate[41],
-					coordinate[42],
-					coordinate[49],
-					coordinate[44]
-				),
-
-				Tetragon(coordinate[41 + 62],
-					coordinate[42 + 62],
-					coordinate[49 + 62],
-					coordinate[44 + 62]
-				),
-
-				Tetragon(coordinate[41],
-					coordinate[44],
-					coordinate[44 + 62],
-					coordinate[41 + 62]
-				),
-
-				Tetragon(coordinate[42],
-					coordinate[49],
-					coordinate[49 + 62],
-					coordinate[42 + 62]
-				),
-
-				Tetragon(coordinate[44],
-					coordinate[49],
-					coordinate[49 + 62],
-					coordinate[44 + 62]
-				),
-
-				Tetragon(coordinate[41],
-					coordinate[42],
-					coordinate[42 + 62],
-					coordinate[41 + 62]
-				),
-
-				//
-
-
-				//
-
-
-				Tetragon(coordinate[45],
-					coordinate[46],
-					coordinate[52],
-					coordinate[51]
-				),
-
-				Tetragon(coordinate[45 + 62],
-					coordinate[46 + 62],
-					coordinate[52 + 62],
-					coordinate[51 + 62]
-				),
-
-				Tetragon(coordinate[45],
-					coordinate[51],
-					coordinate[51 + 62],
-					coordinate[45 + 62]
-				),
-
-				Tetragon(coordinate[46],
-					coordinate[52],
-					coordinate[52 + 62],
-					coordinate[46 + 62]
-				),
-
-				Tetragon(coordinate[51],
-					coordinate[52],
-					coordinate[52 + 62],
-					coordinate[51 + 62]
-				),
-
-				Tetragon(coordinate[45],
-					coordinate[46],
-					coordinate[46 + 62],
-					coordinate[45 + 62]
-				),
-
-				//
-
-						//
-
-
-						Tetragon(coordinate[47],
-							coordinate[48],
-							coordinate[54],
-							coordinate[53]
-						),
-
-						Tetragon(coordinate[47 + 62],
-							coordinate[48 + 62],
-							coordinate[54 + 62],
-							coordinate[53 + 62]
-						),
-
-						Tetragon(coordinate[47],
-							coordinate[53],
-							coordinate[53 + 62],
-							coordinate[47 + 62]
-						),
-
-						Tetragon(coordinate[48],
-							coordinate[54],
-							coordinate[54 + 62],
-							coordinate[48 + 62]
-						),
-
-						Tetragon(coordinate[47],
-							coordinate[48],
-							coordinate[48 + 62],
-							coordinate[47 + 62]
-						),
-
-						Tetragon(coordinate[53],
-							coordinate[54],
-							coordinate[54 + 62],
-							coordinate[53 + 62]
-						),
-
-						//
-
-						//
-
-
-						Tetragon(coordinate[50],
-							coordinate[52],
-							coordinate[57],
-							coordinate[56]
-						),
-
-						Tetragon(coordinate[50 + 62],
-							coordinate[52 + 62],
-							coordinate[57 + 62],
-							coordinate[56 + 62]
-						),
-
-						Tetragon(coordinate[50],
-							coordinate[56],
-							coordinate[56 + 62],
-							coordinate[50 + 62]
-						),
-
-						Tetragon(coordinate[52],
-							coordinate[57],
-							coordinate[57 + 62],
-							coordinate[52 + 62]
-						),
-
-						Tetragon(coordinate[50],
-							coordinate[52],
-							coordinate[52 + 62],
-							coordinate[50 + 62]
-						),
-
-						Tetragon(coordinate[56],
-							coordinate[57],
-							coordinate[57 + 62],
-							coordinate[56 + 62]
-						),
-
-					//
-
-						//
-
-
-						Tetragon(coordinate[53],
-							coordinate[55],
-							coordinate[59],
-							coordinate[58]
-						),
-
-						Tetragon(coordinate[53 + 62],
-							coordinate[55 + 62],
-							coordinate[59 + 62],
-							coordinate[58 + 62]
-						),
-
-						Tetragon(coordinate[53],
-							coordinate[58],
-							coordinate[58 + 62],
-							coordinate[53 + 62]
-						),
-
-						Tetragon(coordinate[55],
-							coordinate[59],
-							coordinate[59 + 62],
-							coordinate[55 + 62]
-						),
-
-						Tetragon(coordinate[53],
-							coordinate[55],
-							coordinate[55 + 62],
-							coordinate[53 + 62]
-						),
-
-						Tetragon(coordinate[58],
-							coordinate[59],
-							coordinate[59 + 62],
-							coordinate[58 + 62]
-						),
-
-
-								//
-
-
-							Tetragon(coordinate[34],
-								coordinate[60],
-								coordinate[31],
-								coordinate[124]
-							),
-
-							Tetragon(coordinate[34+62],
-								coordinate[60 + 62],
-								coordinate[31 + 62],
-								coordinate[125]
-							),
-
-							Tetragon(coordinate[31],
-								coordinate[60],
-								coordinate[60+62],
-								coordinate[31+62]
-							),
-
-							
-							Tetragon(coordinate[31],
-								coordinate[60],
-								coordinate[60 + 62],
-								coordinate[31 + 62]
-							),
-
-							Tetragon(coordinate[34],
-								coordinate[124],
-								coordinate[125],
-								coordinate[34+62]
-							),
-
-							Tetragon(coordinate[34],
-								coordinate[60],
-								coordinate[60 + 62],
-								coordinate[34 + 62]
-							),
-								
-						
-
-								//
-
-
-								Tetragon(coordinate[30],
-									coordinate[124],
-									coordinate[37],
-									coordinate[36]
-								),
-
-							Tetragon(coordinate[30+62],
-								coordinate[125],
-								coordinate[37+62],
-								coordinate[36+62]
-							),
-
-								Tetragon(coordinate[30],
-									coordinate[36],
-									coordinate[36 + 62],
-									coordinate[30 + 62]
-								),
-
-
-								Tetragon(coordinate[124],
-									coordinate[37],
-									coordinate[37 + 62],
-									coordinate[125]
-								),
-
-								Tetragon(coordinate[30],
-									coordinate[124],
-									coordinate[125],
-									coordinate[30 + 62]
-								),
-
-								Tetragon(coordinate[36],
-									coordinate[37],
-									coordinate[37 + 62],
-									coordinate[36 + 62]
-								),
-
-
-
-								//
-
-
-								Tetragon(coordinate[32],
-									coordinate[126],
-									coordinate[35],
-									coordinate[61]
-								),
-
-								Tetragon(coordinate[32 + 62],
-									coordinate[127],
-									coordinate[35 + 62],
-									coordinate[61 + 62]
-								),
-
-								Tetragon(coordinate[32],
-									coordinate[126],
-									coordinate[127],
-									coordinate[32 + 62]
-								),
-
-
-								Tetragon(coordinate[61],
-									coordinate[35],
-									coordinate[35 + 62],
-									coordinate[61+62]
-								),
-
-								Tetragon(coordinate[32],
-									coordinate[61],
-									coordinate[61+62],
-									coordinate[32 + 62]
-								),
-
-								Tetragon(coordinate[35],
-									coordinate[126],
-									coordinate[127],
-									coordinate[35 + 62]
-								),
-
-
-
-								//
-
-
-								Tetragon(coordinate[126],
-									coordinate[38],
-									coordinate[39],
-									coordinate[33]
-								),
-
-								Tetragon(coordinate[127],
-									coordinate[38+62],
-									coordinate[39 + 62],
-									coordinate[33 + 62]
-								),
-
-								Tetragon(coordinate[126],
-									coordinate[33],
-									coordinate[33 + 62],
-									coordinate[127]
-								),
-
-
-								Tetragon(coordinate[38],
-									coordinate[39],
-									coordinate[39 + 62],
-									coordinate[38+62]
-								),
-
-								Tetragon(coordinate[33],
-									coordinate[39],
-									coordinate[39+62],
-									coordinate[33 + 62]
-								),
-
-								Tetragon(coordinate[126],
-									coordinate[38],
-									coordinate[38+62],
-									coordinate[127]
-								),
-
-										Tetragon(coordinate[30],
-											coordinate[31],
-											coordinate[31 + 62],
-											coordinate[30+62]
-										),
-							
-							//
-							/*
-								Tetragon(coordinate[36],
-									coordinate[37],
-									coordinate[124],
-									coordinate[30]
-								),
-							Tetragon(coordinate[36+62],
-								coordinate[37+62],
-								coordinate[125],
-								coordinate[30+62]
-							),
-
-							Tetragon(coordinate[30],
-								coordinate[36],
-								coordinate[36+62],
-								coordinate[30+62]
-							),
-
-							Tetragon(coordinate[37],
-								coordinate[124],
-								coordinate[125],
-								coordinate[37+62]
-							),
-
-							Tetragon(coordinate[36],
-								coordinate[37],
-								coordinate[37 + 62],
-								coordinate[36 + 62]
-							),
-							Tetragon(coordinate[30],
-								coordinate[124],
-								coordinate[125],
-								coordinate[30 + 62]
-							),
-
-
-								//
-								/*
-
-							Tetragon(coordinate[126],
-								coordinate[32],
-								coordinate[128],
-								coordinate[35]
-							),
-								Tetragon(coordinate[127],
-									coordinate[32+62],
-									coordinate[129],
-									coordinate[35+62]
-								),
-
-								Tetragon(coordinate[35],
-									coordinate[128],
-									coordinate[129],
-									coordinate[35+62]
-								),
-								
-								Tetragon(coordinate[35],
-									coordinate[128],
-									coordinate[129],
-									coordinate[35+62]
-								),
-
-								Tetragon(coordinate[126],
-									coordinate[35],
-									coordinate[35+62],
-									coordinate[127]
-								),
-							//
-							// 
-							
-								Tetragon(coordinate[38],
-									coordinate[39],
-									coordinate[33],
-									coordinate[128]
-								),
-
-										Tetragon(coordinate[38+62],
-											coordinate[39+62],
-											coordinate[33+62],
-											coordinate[129]
-										),
-
-								Tetragon(coordinate[33],
-									coordinate[39],
-									coordinate[39+62],
-									coordinate[33+62]
-								),
-								Tetragon(coordinate[38],
-									coordinate[39],
-									coordinate[39+62],
-									coordinate[38+62]
-								),
-
-								Tetragon(coordinate[128],
-									coordinate[33],
-									coordinate[33+62],
-									coordinate[129]
-								),
-
-
-
-									Tetragon(coordinate[10],
-										coordinate[11],
-										coordinate[17],
-										coordinate[16]
-									),
-
-								Tetragon(coordinate[12],
-									coordinate[13],
-									coordinate[19],
-									coordinate[18]
-								),
-
-								Tetragon(coordinate[22],
-									coordinate[23],
-									coordinate[25],
-									coordinate[24]
-								),
-								//
-
-							
-								Tetragon(coordinate[30],
-									coordinate[36],
-									coordinate[37],
-									coordinate[34]
-								),
-
-							Tetragon(coordinate[34],
-								coordinate[35],
-								coordinate[35 + 62],
-								coordinate[34 + 62]
-							),
-
-								Tetragon(coordinate[30 + 62],
-									coordinate[36 + 62],
-									coordinate[37 + 62],
-									coordinate[34 + 62]
-								),
-
-								Tetragon(coordinate[30],
-									coordinate[36],
-									coordinate[36 + 62],
-									coordinate[30 + 62]
-								),
-
-								Tetragon(coordinate[37],
-									coordinate[34],
-									coordinate[34 + 62],
-									coordinate[37 + 62]
-								),
-
-								Tetragon(coordinate[30],
-									coordinate[34],
-									coordinate[34 + 62],
-									coordinate[30 + 62]
-								),
-							Tetragon(coordinate[30],
-								coordinate[33],
-								coordinate[33 + 62],
-								coordinate[30 + 62]
-							),
-
-								Tetragon(coordinate[36],
-									coordinate[37],
-									coordinate[37 + 62],
-									coordinate[36 + 62]
-								),
-							//
-
-								//
-
-								
-								Tetragon(coordinate[35],
-									coordinate[38],
-									coordinate[39],
-									coordinate[33]
-								),
-
-								Tetragon(coordinate[35 + 62],
-									coordinate[38 + 62],
-									coordinate[39 + 62],
-									coordinate[33 + 62]
-								),
-
-								Tetragon(coordinate[35],
-									coordinate[38],
-									coordinate[38 + 62],
-									coordinate[35 + 62]
-								),
-
-								Tetragon(coordinate[33],
-									coordinate[39],
-									coordinate[39 + 62],
-									coordinate[33 + 62]
-								),
-
-								Tetragon(coordinate[38],
-									coordinate[39],
-									coordinate[39 + 62],
-									coordinate[38 + 62]
-								),
-
-								Tetragon(coordinate[35],
-									coordinate[33],
-									coordinate[33 + 62],
-									coordinate[35 + 62]
-								),
-								*/
-							//
-
-								//
-								/*
-
-								Tetragon(coordinate[30],
-									coordinate[33],
-									coordinate[35],
-									coordinate[34]
-								),
-
-								Tetragon(coordinate[30 + 62],
-									coordinate[33 + 62],
-									coordinate[35 + 62],
-									coordinate[34 + 62]
-								),
-
-								Tetragon(coordinate[30],
-									coordinate[34],
-									coordinate[34 + 62],
-									coordinate[30 + 62]
-								),
-
-								Tetragon(coordinate[33],
-									coordinate[35],
-									coordinate[35 + 62],
-									coordinate[33 + 62]
-								),
-
-								Tetragon(coordinate[30],
-									coordinate[33],
-									coordinate[33 + 62],
-									coordinate[30 + 62]
-								),
-
-								Tetragon(coordinate[34],
-									coordinate[35],
-									coordinate[35 + 62],
-									coordinate[34 + 62]
-								),
-								*/
+				Tetragon(coordinate[30-1],
+					coordinate[31-1],
+					coordinate[29-1],
+					coordinate[29-1]
+				)
+			/*
+			P1(3,2,20, 21) ‰ÌÓ
+P2(6,3,21,24) À≈¬€…  –¿…
+P3(2,5,23,20) œ–¿¬€…
+P4(6,5,23,24) ¬≈–’ —”ƒÕ¿
+P5(15,16,34,33) Õ»« À≈¬Œ√Œ œ¿–”—¿
+P6(16,14,32,34) ¬≈–’ À≈¬Œ√Œ
+P7(12,13,31,30) Õ»« œ–¿¬Œ√Œ
+P8(13,11,29,31) ¬≈–’ œ–¿¬Œ√Œ
+P9(10,7,25,28) ¬≈–’”ÿ ¿
+P10(9,10,28,27) À≈¬ Ã¿◊“¿
+P11(8, 7, 25, 26) œ– Ã¿◊“¿
+P12(18,10,28,36) ¬≈–’ ‘À¿√¿
+P13(17,18,36,35) Õ»« ‘À¿√¿
+
+œ≈–≈ƒÕﬂﬂ
+P14(20,21,6,5)
+P15(9,8,7,10)
+P21(10,18,17,17)
+P17(15,16,14,14)
+P18(12,13,11,11)
+
+«¿ƒÕﬂﬂ
+P19(2,3,24,23)
+P20(27,26,25,28)
+P16(28,36,35,40)
+P22(33,34,32,32)
+P23(30,31,29,29)
+
+			*/
 								
 		};
 	}

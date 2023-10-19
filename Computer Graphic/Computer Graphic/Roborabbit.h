@@ -19,15 +19,15 @@ struct Point3D {
 struct quad {
 	double first = 1;
 	double second = 1;
-	double third = -100;
+	double third = -10;
 	double fourth = 1;
 
 };
 class RoboRabbit {
 public:
-	double N = 0.00;
+	double N = 0.00000;
 	double CenterX = 500;
-	double CenterY = 400;
+	double CenterY = 700;
 	virtual void Turn(double a) = 0;
 	virtual void Move(pair<double, double> a) = 0;
 	virtual void ChangeSize(pair<double, double> a) = 0;
@@ -45,16 +45,7 @@ public:
 	}
 	// Рисование картинки по координатам
 	void Draw(vector<quad> coordinate) {
-		LINES.clear();
-		for (auto it = graph.begin(); it != graph.end(); ++it) {
-			for (auto places = (*it).second.begin(); places != (*it).second.end(); ++places) {
-				LINES.push_back({
-						Vertex(sf::Vector2f(CenterX + coordinate[(*it).first].first, CenterY - coordinate[(*it).first].second)),
-						Vertex(sf::Vector2f(CenterX + coordinate[*places].first , CenterY - coordinate[*places].second))
-					});
-			}
-		}
-		int j;
+		
 	}
 	// Создание новый координат по матрице-изменения
 	void DoNewImage(vector<vector<double>> matrix) {
