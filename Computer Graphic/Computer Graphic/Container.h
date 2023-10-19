@@ -29,7 +29,7 @@ public:
 		assert(ofs);
 		ofs.close();
 	}
-	vector<vector<vector<double>>> Get() {
+	void Get(vector < vector < vector < double>> >& result ) {
 		const boost::interprocess::mode_t mode = boost::interprocess::read_only;
 		boost::interprocess::file_mapping fm("animation/animation.txt", mode);
 		boost::interprocess::mapped_region region(fm, mode, 0, 0);
@@ -38,8 +38,7 @@ public:
 			);
 		string line = begin;
 		boost::json::value jv = boost::json::parse(line);
-		auto h = boost::json::value_to<vector<vector<vector<double>>>>(jv);
-		return h;
+		result = boost::json::value_to<vector<vector<vector<double>>>>(jv);
 	}
 
 };
